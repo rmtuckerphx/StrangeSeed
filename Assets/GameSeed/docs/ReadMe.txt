@@ -1,8 +1,4 @@
-# StrangeSeed
-A Unity 5 starter project using uGUI and StrangeIoC. I have to admit that calling the project StrangeSeed motivated me to keep going as I learned both Unity and StrangeIoC.
-
-Tenants of the project are:
-
+﻿StrangeSeed is a starter or seed project with the key points:
 * StrangeIoC is used with the Model-View-Controller-Service design pattern
 * The project consists of multiple contexts: MainContext, UIContext and GameContext
 * When main.unity scene is executed, then MainContext is executed as the first context and the other contexts are loaded as needed. This is the normal execution flow.
@@ -22,6 +18,3 @@ that has an Open and Close state and an IsOpen parameter. A screen takes up the 
 * The project defines various animations and animation controllers for fading and sliding a screen or dialog.
 * All scenes are loaded via LoadLevelAdditiveAsync by dispatching the LoadSceneSignal signal and passing it a string array of scene names to load. The Loading screen will show and the progress
 bar will advance based on the number of scenes to loading and the progress.
-
-
-Feedback and contributors are welcome!
